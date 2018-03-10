@@ -260,7 +260,7 @@ var start = (new Date()).getTime();
 // Show this peer's ID.
 peer.on('open', function (id) {
     $('#pid').text(id);
-    $('#purl').text("https://otr.to/#" + id);
+    $('#purl').text(document.URL+"/#" + id);
     $(function () {
         $("#pid").click(function () {
             SelectText("pid");
