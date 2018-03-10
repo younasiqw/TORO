@@ -831,7 +831,8 @@ Peer.prototype._retrieveId = function(cb) {
   var self = this;
   var http = new XMLHttpRequest();
   var protocol = this.options.secure ? 'https://' : 'http://';
-  var url = document.URL + this.options.path + this.options.key + '/id';
+  var url = protocol + this.options.host + ':' + this.options.port +
+    this.options.path + this.options.key + '/id';
   var queryString = '?ts=' + new Date().getTime() + '' + Math.random();
   url += queryString;
 
