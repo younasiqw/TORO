@@ -1,4 +1,4 @@
-<img src="icone.png" >
+<img src="icone.png" style="width:20px" >
 
 ## What is TORO?
 TORO is an anonymous peer to peer chat system, *no registration needed*, *no application needed*, *no billings*, *no logs*, *anonymously* and *Encrypted* you just have to share the link to your friend to start the conversation!
@@ -11,5 +11,7 @@ A conversation session is created in WebRTC to establish a connection with your 
 	>WebRTC
 
 ## Authors / Contributors:
-	> <a href="https://github.com/Sanix-Darker">Sanix Darker</a>
+<a href="https://github.com/Sanix-Darker">> Sanix Darker </a>
+
+## A Capture of demo in two chrome session:
 <img src="capture.png" >
