@@ -1,6 +1,15 @@
-<a href="https://sanix-darker.github.io/TORO/" target="_blank"> See the demo Here</a>
-<center>
-	<img src="icone.png" style="width: 100%;">
-</center>
-<h1> TORO </h1>
-Open source and FREE p2p otr encrypted chat and self-destructing messages. <a href="https://sanix-darker.github.io/TORO/" target="_blank"> See the demo </a>
+<img src="icone.png" >
+
+## What is TORO?
+TORO is an anonymous peer to peer chat system, *no registration needed*, *no application needed*, *no billings*, *no logs*, *anonymously* and *Encrypted* you just have to share the link to your friend to start the conversation!
+
+## How it work?
+A conversation session is created in WebRTC to establish a connection with your pair and an id of your correspondent is generate, it is this id which is transferer in the url
+
+## Technologies used:
+	>ORT (Off the Record messaging protocol) Encryption
+	>WebRTC
+
+## Authors / Contributors:
+	> <a href="https://github.com/Sanix-Darker">Sanix Darker</a>
+<img src="capture.png" >
