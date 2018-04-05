@@ -6,12 +6,12 @@ TORO is an anonymous peer to peer chat system, *no registration needed*, *no app
 ## How it work?
 A conversation session is created in WebRTC to establish a connection with your pair and an id of your correspondent is generate, it is this id which is transferer in the url
 
-## Technologies used:
+### Technologies used:
 	>ORT (Off the Record messaging protocol) Encryption
 	>WebRTC
 
-## Authors / Contributors:
+### Authors / Contributors:
 <a href="https://github.com/Sanix-Darker">> Sanix Darker </a>
 
-## A Capture of demo in two chrome session:
+### Capture of demo in two chrome session:
 <img src="capture.png" >
