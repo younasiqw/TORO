@@ -62,9 +62,11 @@ function eachActiveConnection(fn) {
 
         if (!checkedIds[peerId]) {
             var conns = peer.connections[peerId];
-            for (var i = 0, ii = conns.length; i < ii; i += 1) {
-                var conn = conns[i];
-                fn(conn, $(this));
+            if(typeof conns != 'undefined'){
+                for (var i = 0, ii = conns.length; i < ii; i += 1) {
+                    var conn = conns[i];
+                    fn(conn, $(this));
+                }
             }
         }
 
